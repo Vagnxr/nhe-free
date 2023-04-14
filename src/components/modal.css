@@ -1,0 +1,208 @@
+/* *** FONTS *** */
+/* *** COLORS *** */
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* IE6-9 fallback on horizontal gradient */
+/* *** BREAKPOINTS *** */
+
+.icon-container {
+  width: 98px;
+  height: 98px;
+  margin: 0 auto;
+}
+
+.md-overlay-details {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1999999;
+}
+
+.details-box {
+  background-color: #fbfbfb;
+  border: 1px solid #f1f1f1;
+  cursor: auto;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 9px 6px 39px -12px rgba(0, 0, 0, 0.54);
+  max-width: 310px;
+  padding: 40px 20px 20px;
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  max-height: 100%;
+}
+@media (min-width: 1024px) {
+  .details-box {
+    width: 40%;
+  }
+}
+.details-box .server-error {
+  display: block;
+  margin: 0 auto;
+}
+.details-box .close-modal {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 2;
+}
+.details-box h2 {
+  font-family: 'dinbold', sans-serif;
+  font-size: 18px;
+  color: #e52117;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 16px 0 0;
+  padding: 0 3px;
+  line-height: 30px;
+}
+
+.alert h2 {
+  font-family: 'dinbold', sans-serif;
+  font-size: 18px;
+  color: #009de1;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 16px 0 0;
+  padding: 0 3px;
+  line-height: 30px;
+}
+
+.details-box .msg-content {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-height: calc(30vh - 30px);
+  margin: 15px auto;
+  word-wrap: break-word;
+}
+
+@media (min-height: 481px) {
+  .details-box .msg-content {
+    max-height: calc(50vh - 30px);
+  }
+}
+.details-box .msg-content strong {
+  color: #6b6b6b;
+  font-family: 'dinbold', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.details-box .msg-content p {
+  color: #6b6b6b;
+  font-family: 'dinlight', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.details-box .btn.btn-success,
+.details-box .btn.btn-cancel {
+  width: 60%;
+  max-width: none;
+}
+.details-box .btn.btn-success:active,
+.details-box .btn.btn-success:hover,
+.details-box .btn.btn-cancel:active,
+.details-box .btn.btn-cancel:hover {
+  opacity: 0.8;
+  background-color: #2d3871;
+  border-color: #2d3871;
+  color: white;
+}
+.details-box .msg-details {
+  color: #adadad;
+  font-size: 14px;
+  text-align: center;
+  padding: 0;
+  float: left;
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.details-box .msg-details .close-stack-trace {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+.details-box .msg-details .clipboard {
+  display: block;
+  margin: 0 auto;
+}
+.details-box .msg-details h2 {
+  color: #7c7c7c;
+  font-family: 'dinmedium', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+.details-box .msg-details p {
+  color: #b9b9b9;
+  font-size: 12px;
+  margin-bottom: 20px;
+  max-height: 70px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.details-box .details-footer {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0 15px 0;
+  width: 100%;
+}
+.details-box .details-footer button {
+  background-color: transparent;
+  border: 0;
+  color: #009de1;
+  cursor: pointer;
+  font-family: 'dinmedium', sans-serif;
+  font-size: 14px;
+  float: right;
+  text-align: right;
+  text-transform: uppercase;
+  outline: none;
+  transform: translate3d(0, 5px, 0);
+}
+.details-box .details-footer button:hover {
+  text-decoration: none;
+}
+.details-box .details-footer p {
+  color: #adadad;
+  font-family: 'dinlight', sans-serif;
+  font-size: 14pt;
+  padding: 0;
+}
+.details-box .icon_arrow {
+  background-image: url(../static/icons//icon-arrow-rounded.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 20px;
+  float: right;
+  cursor: pointer;
+  background-position: bottom;
+}
+.details-box .icon_arrow-up {
+  transform: rotate(180deg);
+  background-position: top;
+  cursor: pointer;
+}
+.details-box .modal-details-enter {
+  opacity: 0.01;
+}
+.details-box .modal-details-enter.modal-details-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.details-box .modal-details-leave {
+  opacity: 1;
+}
+.details-box .modal-details-leave.modal-details-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

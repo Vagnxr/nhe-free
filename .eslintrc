@@ -1,0 +1,98 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:cypress/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "cypress",
+    "jsx-a11y",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "cypress/globals": true
+  },  
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          [
+            "@",
+            "./src"
+          ],
+          [
+            "apis",
+            "./src/apis"
+          ],
+          [
+            "components",
+            "./src/components"
+          ],
+          [
+            "commons",
+            "./src/commons"
+          ],
+          [
+            "containers",
+            "./src/containers"
+          ],
+          [
+            "modules",
+            "./src/modules"
+          ],
+          [
+            "router",
+            "./src/router"
+          ],
+          [
+            "sagas",
+            "./src/sagas"
+          ],
+          [
+            "store",
+            "./src/store"
+          ],
+          [
+            "utils",
+            "./src/utils"
+          ],
+          [
+            "theme",
+            "./src/theme"
+          ],
+          [
+            "static",
+            "./src/static"
+          ]
+        ],
+        "extensions": [
+          ".js",
+          ".json"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+          "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-wrap-multilines": "off",
+    "prettier/prettier": "error",
+    "no-console": [
+      1,
+      {
+        "allow": [
+          "warn",
+          "error"
+        ]
+      }
+    ],
+    "import/imports-first": ["error", "absolute-first"]
+  }
+}

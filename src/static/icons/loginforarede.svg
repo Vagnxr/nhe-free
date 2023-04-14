@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <linearGradient id="svg_loginforarede" x1="16.5724" x2="83.4079" y1="17.8501" y2="84.6856" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d11a15"/>
+    <stop offset=".07299251" stop-color="#c81b1a"/>
+    <stop offset=".1945" stop-color="#ae1f28"/>
+    <stop offset=".3496" stop-color="#84263e"/>
+    <stop offset=".5302" stop-color="#4c2f5d"/>
+    <stop offset=".6493" stop-color="#223573"/>
+    <stop offset=".7606" stop-color="#315191"/>
+    <stop offset=".994" stop-color="#5697db"/>
+    <stop offset="1" stop-color="#5697db"/>
+  </linearGradient>
+  <path fill="none" stroke="url(#svg_loginforarede)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3" d="M37 55.6S26.4 61 23.6 62.9c-2.8 1.9-4.7 5.1-4.7 8.5v13.2m62.2.1V71.5c0-3.4-1.9-6.6-4.7-8.5-2.8-2-13.4-7.4-13.4-7.4M32.5 76.2v16.4M67 76.2v16.4M43.4 48.1v4.2m13.7-5.2v5.3l5.9 3.3M50 5.5C24.7 5.5 4.2 26 4.2 51.3S24.7 97 50 97s45.8-20.5 45.8-45.8S75.3 5.5 50 5.5zm8.9 48c0 2.9-4.3 4.8-8.8 4.8s-8.5-1.9-8.5-4.8M63 55.6c0 4.3-6.5 7.2-13.3 7.2S37 59.9 37 55.6l6.4-3.3M32.5 83.2l-13.6-3.9m61.9-.1l-13.6 3.9m-22-1.1c.8-1.9 3-2.7 4.9-1.9 1.9.8 2.7 3 1.9 4.9s-3 2.7-4.9 1.9-2.7-3-1.9-4.9zm3.6-5.1V74m6.4 9.7h2.9M53.4 79l3.8-3.8m-7.3-26.1c-7.8 0-14.2-9.2-14.2-17v-2.8c0-8 6.3-14.3 14.2-14.3 7.8 0 14.2 6.4 14.2 14.2V32c0 7.9-6.4 17.1-14.2 17.1z"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88.2" height="88.2" viewBox="0 0 88.2 88.2">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.02" y1="0.408" x2="0.976" y2="0.589" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5130d"/>
+      <stop offset="0.072" stop-color="#eb1413"/>
+      <stop offset="0.193" stop-color="#cd1924"/>
+      <stop offset="0.347" stop-color="#9b213c"/>
+      <stop offset="0.526" stop-color="#562a5d"/>
+      <stop offset="0.649" stop-color="#0d3276"/>
+      <stop offset="0.759" stop-color="#105093"/>
+      <stop offset="0.994" stop-color="#0699df"/>
+      <stop offset="1" stop-color="#0699df"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d31a15"/>
+      <stop offset="0.072" stop-color="#ca1b1a"/>
+      <stop offset="0.193" stop-color="#b01f28"/>
+      <stop offset="0.347" stop-color="#86263e"/>
+      <stop offset="0.526" stop-color="#4e2e5c"/>
+      <stop offset="0.649" stop-color="#223573"/>
+      <stop offset="0.759" stop-color="#315191"/>
+      <stop offset="0.994" stop-color="#5799dd"/>
+      <stop offset="1" stop-color="#5799dd"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_10695" data-name="Group 10695" transform="translate(-556 -436)">
+    <path id="Path_3323" data-name="Path 3323" d="M1495.7,88.4a44.123,44.123,0,0,1-31.2-75.3,44.123,44.123,0,0,1,62.4,62.4A43.87,43.87,0,0,1,1495.7,88.4Zm0-86.4a41.581,41.581,0,0,0-29.8,12.4,42.2,42.2,0,0,0,29.8,72A41.581,41.581,0,0,0,1525.5,74a42.008,42.008,0,0,0,0-59.6A41.581,41.581,0,0,0,1495.7,2Z" transform="translate(-895.6 435.8)" fill="url(#linear-gradient)"/>
+    <path id="Path_3475" data-name="Path 3475" d="M18.5,52h-8V44.2h8Zm-6-2h4V46.2h-4ZM18,38H11V34.2a12.5,12.5,0,0,1,2.3-7.1L19,19a9.75,9.75,0,0,0,2.1-5.3,6.931,6.931,0,0,0-2-5.2,6.488,6.488,0,0,0-5-2A6.636,6.636,0,0,0,9,8.6a7.335,7.335,0,0,0-2,5.2v1H0v-1A13.13,13.13,0,0,1,4.1,4a14.056,14.056,0,0,1,10-4,13.806,13.806,0,0,1,10,3.9,13.045,13.045,0,0,1,4,9.8q0,4.2-3.3,9l-5.7,8.2A6.062,6.062,0,0,0,18,34.4V38Zm-5-2h3V34.3a8.3,8.3,0,0,1,1.4-4.6l5.7-8.2a13.965,13.965,0,0,0,3-7.8,11.233,11.233,0,0,0-3.4-8.4A11.845,11.845,0,0,0,14.1,2,11.528,11.528,0,0,0,5.5,5.4,11.212,11.212,0,0,0,2,12.7H5A9.21,9.21,0,0,1,7.4,7.2,8.748,8.748,0,0,1,14,4.4,8.9,8.9,0,0,1,20.5,7,9.052,9.052,0,0,1,23,13.6a11.6,11.6,0,0,1-2.5,6.5L15,28.3a10.52,10.52,0,0,0-2,6Z" transform="translate(585 455)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

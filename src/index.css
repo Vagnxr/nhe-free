@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'DinBold';
+  src: local('DinBold'), url(./static/fonts/DIN-BOLD.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'DinRegular';
+  src: local('DinRegular'), url(./static/fonts/DIN-RG__.TTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'DinMedium';
+  src: local('DinMedium'), url(./static/fonts/DIN-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DinLight';
+  src: local('DinLight'), url(./static/fonts/DIN-Light.ttf) format('truetype');
+}
+
+*,
+*::after,
+*::before {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  background-color: #f5f6f5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+  background: #666666;
+  border-radius: 20px;
+}

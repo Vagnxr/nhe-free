@@ -1,0 +1,47 @@
+/* *** FONTS *** */
+/* *** COLORS *** */
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* IE6-9 fallback on horizontal gradient */
+/* *** BREAKPOINTS *** */
+.clipboard {
+  display: inline-block;
+  position: relative;
+  width: 85px;
+}
+.clipboard img {
+  cursor: pointer;
+  display: block;
+}
+.clipboard .copiar {
+  font-family: 'dinregular', sans-serif;
+  font-size: 12px;
+  color: #6b6b6b;
+  text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+.clipboard .copied {
+  border-radius: 5px;
+  background-color: #303030;
+  color: #e0e0e0;
+  padding: 2px 10px;
+  position: absolute;
+}
+.clipboard .copied.top {
+  top: -25px;
+  left: 0;
+}
+.clipboard .copied.bottom {
+  top: 45px;
+  left: 10px;
+}
+.clipboard .copied.left {
+  top: 10px;
+  left: -80px;
+}
+.clipboard .copied.right {
+  top: 10px;
+  left: 90px;
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.267" height="21.266" viewBox="0 0 21.267 21.266">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.149" y1="0.148" x2="0.855" y2="0.855" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9130d"/>
+      <stop offset="0.058" stop-color="#f01411"/>
+      <stop offset="0.156" stop-color="#d6181d"/>
+      <stop offset="0.28" stop-color="#ac1d2f"/>
+      <stop offset="0.426" stop-color="#732549"/>
+      <stop offset="0.588" stop-color="#2a2e69"/>
+      <stop offset="0.649" stop-color="#0d3276"/>
+      <stop offset="0.758" stop-color="#095095"/>
+      <stop offset="0.994" stop-color="#009de3"/>
+    </linearGradient>
+  </defs>
+  <path id="Union_45" data-name="Union 45" d="M1232,3894.633a10.634,10.634,0,1,1,10.634,10.633A10.6,10.6,0,0,1,1232,3894.633Zm1.934,0a8.7,8.7,0,1,0,8.7-8.7A8.663,8.663,0,0,0,1233.934,3894.633Zm8.081,3.816-5.256-5.836a.966.966,0,0,1,1.46-1.264l4.574,5.058,5.061-5.058a.963.963,0,0,1,1.361,1.361l-5.741,5.837a2.3,2.3,0,0,1-.778.194A.756.756,0,0,1,1242.015,3898.449Z" transform="translate(-1232 -3884)" fill="url(#linear-gradient)"/>
+</svg>

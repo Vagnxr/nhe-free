@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <linearGradient id="svg_acerto1" x1="2.3396" x2="33.3113" y1="17.0326" y2="17.0326" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d51a15"/>
+    <stop offset=".07205787" stop-color="#cc1b1a"/>
+    <stop offset=".192" stop-color="#b21f27"/>
+    <stop offset=".3449" stop-color="#89263d"/>
+    <stop offset=".5229" stop-color="#502e5b"/>
+    <stop offset=".6493" stop-color="#233573"/>
+    <stop offset=".7589" stop-color="#1a5292"/>
+    <stop offset=".994" stop-color="#059bdf"/>
+  </linearGradient>
+  <path fill="none" stroke="url(#svg_acerto1)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M28.1 6.8c5.7 5.7 5.7 14.8 0 20.5-5.7 5.7-14.8 5.7-20.5 0-5.7-5.7-5.7-14.8 0-20.5 5.6-5.7 14.8-5.7 20.5 0z"/>
+  <linearGradient id="svg_acerto2" x1="9" x2="25.9955" y1="17.7156" y2="17.7156" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d51a15"/>
+    <stop offset=".07205787" stop-color="#cc1b1a"/>
+    <stop offset=".192" stop-color="#b21f27"/>
+    <stop offset=".3449" stop-color="#89263d"/>
+    <stop offset=".5229" stop-color="#502e5b"/>
+    <stop offset=".6493" stop-color="#233573"/>
+    <stop offset=".7589" stop-color="#1a5292"/>
+    <stop offset=".994" stop-color="#059bdf"/>
+  </linearGradient>
+  <path fill="none" stroke="url(#svg_acerto2)" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M10 17l5 5.7 10-10"/>
+</svg>
